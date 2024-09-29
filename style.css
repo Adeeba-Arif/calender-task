@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(130, 165, 231);
+}
+.container{
+    margin: auto;
+    width: 25%;
+    height: 50px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.input{
+
+}
+.output{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 470px;
+    margin-right: 470px;
+    margin-top: 20px;
+}
+.years{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+.month{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+.days{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
