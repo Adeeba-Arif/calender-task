@@ -24,18 +24,21 @@ body{
     margin-right: 470px;
     margin-top: 20px;
 }
-.years{
+#years{
     background-color: black;
     height: 50px;
     width: 50px;
+    color: white;
 }
-.month{
+#months{
     background-color: black;
     height: 50px;
     width: 50px;
+    color: white;
 }
-.days{
+#days{
     background-color: black;
     height: 50px;
     width: 50px;
+    color: white;
 }
