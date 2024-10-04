@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(130, 165, 231);
+    background-color:#1a36d6;
 }
 .container{
     margin: auto;
@@ -19,6 +19,7 @@ body{
     margin-top: 10px;
 }
 #DOB{
+    padding-left: 10px;
     border-radius: 5px;
     width: 170px;
    height: 25px;
@@ -27,6 +28,10 @@ body{
     border-radius: 5px;
     padding: 5px 5px;
     margin-left: 20px;
+}
+#btn:hover{
+    color: white;
+    background-color: #1a36d6;
 }
 .output{
     display: flex;
