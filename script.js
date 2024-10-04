@@ -20,9 +20,9 @@ calculateAge.onclick = function(){
         monthsdiff--;
         daysdiff += new Date(now.getFullYear(), now.getMonth(), 0).getDate();
     }
-    var years = document.getElementById('years').textContent = yearsdiff
-    var months = document.getElementById('months').textContent = monthsdiff
-    var days = document.getElementById('days').textContent = daysdiff
+    var years = document.getElementById('years').textContent = "Years" + yearsdiff
+    var months = document.getElementById('months').textContent = "Months" + monthsdiff
+    var days = document.getElementById('days').textContent = "Days" + daysdiff
     
     }
 }
