@@ -11,34 +11,54 @@ body{
     height: 50px;
     margin-top: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: black;
+    border-radius: 8px;
 }
 .input{
-
+    margin-top: 10px;
+}
+#DOB{
+    border-radius: 5px;
+    width: 170px;
+   height: 25px;
+}
+#btn{
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-left: 20px;
 }
 .output{
     display: flex;
     justify-content: space-around;
-    margin-left: 470px;
-    margin-right: 470px;
+    margin-left: 490px;
+    margin-right: 490px;
     margin-top: 20px;
 }
 #years{
     background-color: black;
     height: 50px;
-    width: 50px;
+    width: 80px;
     color: white;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 8px;
 }
 #months{
     background-color: black;
     height: 50px;
-    width: 50px;
+    width: 80px;
     color: white;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 8px;
 }
 #days{
     background-color: black;
     height: 50px;
-    width: 50px;
+    width: 80px;
     color: white;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 8px;
 }
