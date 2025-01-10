@@ -2,17 +2,23 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color:#1a36d6;
+body {
+    background-color: #1a36d6; 
+    background-image: url("./img/blue-blank-notepad-with-copy-space.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
 }
+
 .container{
     margin: auto;
     width: 25%;
     height: 50px;
-    margin-top: 300px;
+    margin-top: 250px;
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: rgb(87, 187, 226);
     border-radius: 8px;
 }
 .input{
@@ -41,28 +47,28 @@ body{
     margin-top: 20px;
 }
 #years{
-    background-color: black;
+    background-color: rgb(87, 187, 226);
     height: 50px;
     width: 80px;
-    color: rgb(179, 169, 169);
+    color: rgb(20, 15, 15);
     text-align: center;
     padding-top: 15px;
     border-radius: 8px;
 }
 #months{
-    background-color: black;
+    background-color: rgb(87, 187, 226);
     height: 50px;
     width: 80px;
-    color: rgb(179, 169, 169);
+    color: rgb(17, 12, 12);
     text-align: center;
     padding-top: 15px;
     border-radius: 8px;
 }
 #days{
-    background-color: black;
+    background-color: rgb(87, 187, 226);
     height: 50px;
     width: 80px;
-    color: rgb(179, 169, 169);
+    color: rgb(31, 25, 25);
     text-align: center;
     padding-top: 15px;
     border-radius: 8px;
